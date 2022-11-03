@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 1;
+}
+  
+/* --------- Non-flexbox related styles --------- */
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffe8c3;
+  background-color: #eab768;
+  border-radius: 10px;
+  border: 10px solid #f5cc8b;
+}
+
+body {
+  background-color: #282c35;
+  font-family: Verdana;
+  font-weight: 600;
+}
+
+.todo-items {
+  border: 5px solid black;
+  width: 100%;
+  height: 83%;
+  text-align: center;
+}
+
+li{
+  margin: 10px 0;
+}
+
+.add-todo {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.todo-list {
+  float: left;
+}
+
+.remove-todo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.add-todo-item {
+  height: 40px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.todo-delete-icon {
+  padding-left: 20px;
+}
